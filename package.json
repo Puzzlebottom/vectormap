@@ -1,0 +1,10 @@
+{
+  "name": "vectormap",
+  "version": "1.0.0",
+  "description": "a vector-based mapping tool for d&d 5e",
+  "main": "index.js",
+  "repository": "git@github.com:Puzzlebottom/vectormap.git",
+  "author": "Conor Meldrum <conor.j.meldrum@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
