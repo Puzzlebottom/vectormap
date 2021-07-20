@@ -1,0 +1,40 @@
+body {
+    font-family: monospace;
+}
+
+table, tr, td {
+    border: solid thin lightgray;
+    border-collapse: collapse;
+}
+
+.map {
+}
+
+.location {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5px;
+    width: 5px;
+}
+
+.emptySpace {
+    color: white;
+    height: 5px;
+    width: 5px;
+}
+
+.label {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    color: transparent;
+    background-color: transparent;
+}
+
+.label:hover {
+    color: midnightblue;
+}
